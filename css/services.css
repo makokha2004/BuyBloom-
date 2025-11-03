@@ -1,0 +1,76 @@
+/*=== General Headings===*/
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(17, 2, 30);
+    margin-top: 40px;
+}
+/*=== Service Section Heading===*/
+ #heading1{
+        color: blue;
+}
+
+/*=== Paragraph Styling===*/
+.paragraph{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+
+/*==== VIP Section === */
+#vip{
+    background-color: rgb(255, 127, 176);
+    display: flex;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/*==== VIP image Styling ===*/
+#vip img{
+    margin-right: 40px;
+    width: 250px;
+    height: auto;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+/* === Hover Effect on VIP Section === */
+#vip:hover {
+    background-color: rgb(34, 178, 46);
+}
+
+/*=== Services.css====*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(227, 224, 220);
+    margin: 0;
+}
+
+/*==== Main Headings===*/
+#car-title{
+background-color: rgb(31, 89, 140);
+text-align: center;
+font-size: 50px;
+margin-bottom: 40px;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 150px;
+    padding: 20px;
+    background-color: rgb(172, 172, 168);
+}
+
+.service img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+   background-color: rgb(172, 172, 168);
+}
+
