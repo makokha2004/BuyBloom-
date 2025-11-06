@@ -42,9 +42,13 @@ button{
     font-size: 16px;
     cursor:pointer ;
     margin: 20px;
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 body{
-    background-image: url("../assets/image.png");
+    background-image: url("../assets/background\ image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
